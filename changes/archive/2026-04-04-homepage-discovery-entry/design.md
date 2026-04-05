@@ -8,7 +8,8 @@
 
 ## Data
 
-- Kategori unggulan: `GET /api/categories` (PRD §15.1) bila tersedia; fallback static hanya untuk development harus dibatasi agar tidak mengaburkan AC produksi.
+- Kategori unggulan: `GET /api/categories` (PRD §15.1) bila tersedia — di frontend dipanggil sebagai path `/api/categories` relatif ke `NEXT_PUBLIC_API_URL` (base URL tanpa suffix `/api`; jangan menggandakan prefix di env).
+- Fallback static (`FALLBACK_FEATURED_CATEGORIES` di `src/lib/categories.ts`) hanya bila env kosong atau request gagal; tidak mengganti AC produksi saat API sudah hidup.
 
 ## Boundary
 

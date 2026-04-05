@@ -23,7 +23,7 @@ Mengimplementasikan homepage sebagai entry discovery dan marketing: hero, search
 
 ## Done Criteria (konkret)
 
-- [ ] Submit search dari homepage membawa user ke `/locations` dengan query tercermin di URL.
-- [ ] Klik shortcut kategori unggulan membuka listing dengan state filter terlihat di URL.
-- [ ] Section utama (hero, CTA, footer) tampil responsif mobile/desktop.
-- [ ] Link ke `/services` dan entry discovery lain tidak broken.
+- [x] Submit search dari homepage membawa user ke `/locations` dengan query tercermin di URL.
+- [x] Klik shortcut kategori unggulan membuka listing dengan state filter terlihat di URL.
+- [x] Section utama (hero, CTA, footer) tampil responsif mobile/desktop.
+- [x] Link ke `/services` dan entry discovery lain tidak broken.

@@ -26,9 +26,9 @@ Halaman detail lokasi publik: galeri + YouTube opsional, metadata lokasi, spesif
 
 ## Done Criteria (konkret)
 
-- [ ] Semua field utama lokasi dari PRD tampil tanpa ambiguitas untuk data published.
-- [ ] WhatsApp membuka `wa.me` dengan body pesan berisi nama lokasi, URL halaman, placeholder nama user.
-- [ ] CTA form web memerlukan login: guest diarahkan ke alur auth.
-- [ ] Video YouTube hanya render jika URL valid/embed.
-- [ ] Galeri mendukung multiple image + cover.
-- [ ] Related locations ditampilkan bila data tersedia.
+- [x] Semua field utama lokasi dari PRD tampil tanpa ambiguitas untuk data published (termasuk slug path, ringkasan `shortDescription` bila ada).
+- [x] WhatsApp membuka `wa.me` dengan body pesan berisi nama lokasi, URL halaman, placeholder nama user — **perlu** env `NEXT_PUBLIC_WHATSAPP_PHONE` (digit); jika kosong, UI menampilkan penjelasan konfigurasi, bukan link aktif.
+- [x] CTA form web memerlukan login: guest diarahkan ke alur auth.
+- [x] Video YouTube hanya render jika URL valid/embed.
+- [x] Galeri mendukung multiple image + cover.
+- [x] Related locations ditampilkan bila data tersedia (heuristik listing per kota).

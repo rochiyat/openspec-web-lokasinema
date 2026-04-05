@@ -3,6 +3,7 @@
 ## WhatsApp helper
 
 - Pusatkan pembentukan string di `lib/whatsapp.ts` (PRD §16.3, §30) agar konsisten dengan inquiry/services nanti.
+- Link `wa.me` aktif hanya jika `NEXT_PUBLIC_WHATSAPP_PHONE` (digit) di-set di environment; jika tidak, tampilkan penjelasan konfigurasi di UI.
 
 ## Auth gate untuk form CTA
 

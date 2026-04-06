@@ -24,8 +24,8 @@ Layanan produksi di situs publik: listing `/services`, detail `/services/[slug]`
 
 ## Done Criteria (konkret)
 
-- [ ] Publik dapat menjelajah services published.
-- [ ] Detail service menampilkan konten utama PRD.
-- [ ] User login dapat mengirim service booking request tervalidasi (§20.3).
-- [ ] WhatsApp CTA service membuka pesan dengan nama layanan + URL.
-- [ ] Admin dapat publish/unpublish dan mengedit service.
+- [x] Publik dapat menjelajah services published.
+- [x] Detail service menampilkan konten utama PRD.
+- [x] User login dapat mengirim service booking request tervalidasi (§20.3).
+- [x] WhatsApp CTA service membuka pesan dengan nama layanan + URL.
+- [x] Admin dapat publish/unpublish dan mengedit service.

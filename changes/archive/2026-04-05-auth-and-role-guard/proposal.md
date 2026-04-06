@@ -23,8 +23,8 @@ Autentikasi end-to-end: register, login, logout, profil minimal (`GET/PATCH /api
 
 ## Done Criteria (konkret)
 
-- [ ] User dapat register, login, logout.
-- [ ] `GET /api/me` mengembalikan profil untuk user terautentikasi.
-- [ ] Request ke `POST /api/inquiries` tanpa auth ditolak (401/403) — diuji setelah endpoint ada atau kontrak test.
-- [ ] Akses `/admin` tanpa role admin ditolak (redirect atau 403).
-- [ ] Rate limiting aktif pada login (dan sesuai kebijakan untuk submit inquiry/review di change terkait).
+- [x] User dapat register, login, logout.
+- [x] `GET /api/me` mengembalikan profil untuk user terautentikasi.
+- [x] Request ke `POST /api/inquiries` tanpa auth ditolak (401) — endpoint stub terproteksi JWT; penyimpanan data pada change web-inquiry-submission.
+- [x] Akses `/admin` tanpa role admin ditolak (redirect atau 403).
+- [x] Rate limiting aktif pada login (dan sesuai kebijakan untuk submit inquiry/review di change terkait).

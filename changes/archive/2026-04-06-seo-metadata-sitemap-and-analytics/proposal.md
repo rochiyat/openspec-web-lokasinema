@@ -1,5 +1,9 @@
 # Proposal: seo-metadata-sitemap-and-analytics
 
+## Why
+
+Saat ini halaman detail lokasi dan layanan berisiko tidak optimal untuk indexing dan share preview karena metadata masih generik/tidak konsisten. Selain itu, tanpa sitemap yang mencakup konten published, discovery oleh crawler jadi lebih lambat. Terakhir, kebutuhan PRD §19.5 meminta event analytics untuk mengukur funnel (search → detail → CTA/submit) namun implementasinya perlu aman (no-op) saat provider belum dikonfigurasi.
+
 ## Objective
 
 SEO dasar Next.js: dynamic metadata + Open Graph untuk detail lokasi dan layanan, canonical URL, sitemap, serta hooks analytics opsional (event: search, detail view, WhatsApp click, inquiry/booking submit) sesuai PRD §19.4–§19.5.

@@ -23,8 +23,8 @@ Review & rating di detail lokasi: tampilkan review `published`, hitung average d
 
 ## Done Criteria (konkret)
 
-- [ ] Review published tampil di detail lokasi; pending tidak tampil ke publik.
-- [ ] User login dapat submit; guest tidak.
-- [ ] Rating 1–5, comment min length sesuai §20.2.
-- [ ] Admin dapat publish, hide, delete; admin editorial dapat langsung published (§23).
-- [ ] Average rating dan count konsisten dengan aturan PRD §18.
+- [x] Review published tampil di detail lokasi; pending tidak tampil ke publik.
+- [x] User login dapat submit; guest tidak.
+- [x] Rating 1–5, comment min length sesuai §20.2.
+- [x] Admin dapat publish, hide, delete; admin editorial dapat langsung published (§23).
+- [x] Average rating dan count konsisten dengan aturan PRD §18.

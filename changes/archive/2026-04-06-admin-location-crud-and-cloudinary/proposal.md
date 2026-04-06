@@ -23,8 +23,8 @@ Panel admin untuk CRUD lokasi, upload gambar ke Cloudinary (metadata di `Locatio
 
 ## Done Criteria (konkret)
 
-- [ ] Admin dapat membuat, mengedit, menghapus lokasi.
-- [ ] Upload banyak gambar ke Cloudinary; set cover; urutan sort.
-- [ ] Lokasi unpublished tidak muncul di API publik.
-- [ ] Slug unik; validasi field wajib §20.1.
-- [ ] Hapus media menghapus referensi DB (kebijakan hapus asset Cloudinary: definisikan di implementasi — optional hard delete).
+- [x] Admin dapat membuat, mengedit, menghapus lokasi.
+- [x] Upload banyak gambar ke Cloudinary; set cover; urutan sort.
+- [x] Lokasi unpublished tidak muncul di API publik.
+- [x] Slug unik; validasi field wajib §20.1.
+- [x] Hapus media menghapus referensi DB (kebijakan hapus asset Cloudinary: definisikan di implementasi — optional hard delete).
